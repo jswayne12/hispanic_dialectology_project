@@ -23,3 +23,17 @@ data to facilitate the analysis. Examples of type of data extracted would be lem
 processing, I used corpus linguistic methods to analyze the data.
 
 Notebooks will be made availible soon.
+
+### How to Install plus additional info
+
+- Access to the code used for data collection, pre-processing, nlp processes, and data storage is availible through github. 
+It would only need to be cloned.
+- Portions of the code relating to data storage, and social media API will need to be updated for your specific use cases.
+
+
+### How to use the Project
+- As stated earlier, some changes to sql_storage.py will be needed in order to engage in the sql processes.
+- The same can be said about the social media API used. You will to create your API keys and apply it to the code
+- After code has been cloned, check to make sure all necessary library installations are done. Then simply run the program and follow the instructions as given. 
+- The options are given in the order of a usual data project, starting with data collection up to NLP processes, but one can simply choose the process as they need them.
+- A new file will soon be added that will hold the functions for corpus data analysis and visualization. 
